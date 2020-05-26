@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+/*======= Formatação Geral - INÍCIO =======*/
+p{  
+    text-align: justify;
+    color: grey;
+    font-family: 'Overpass', sans-serif;
+    font-size: 10.5pt;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-family: 'Overpass', sans-serif;
+    text-align: justify;
+    color: #606060;
+    font-weight: bold;
+    font-size: 12pt;
+    border-bottom: 1px dashed rgba(0, 0, 0, .6);
+}
+h5{
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+    color: #606060;
+    font-size: 11pt;
+    margin-bottom: 22.5px;
+}
+body{
+    background-image: url(../img/Body.jpg);
+}
+div#interface{
+    width: 900px;
+    background-color: #F0F8FF;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+}
+header#cabecalho{
+    border-bottom: 3px solid #606060;
+    width: 900px;
+    height: 180px;
+    background: url(../img/Banner.jpg) no-repeat;
+    background-position: center;
+    box-shadow: 0px 1px 20px rgba(0,0,0,.6);
+}
+section#corpo{
+    display: block;
+	width: 429px;
+	float: left;
+	border-right: 2px solid #606060;
+    margin: 0px;
+    background-color: whitesmoke;
+    padding: 15px 10px 15px 10px;
+}
+aside#lateral{
+    display: block;
+	width: 429px;
+	float: right;   
+    margin: 0px;
+    background-color: #E6E6FA;
+    padding: 15px 10px 15px 10px;
+}
+footer#rodape{
+    clear: both;
+	border-top: 2px solid #606060;
+    margin: 0px;
+    box-shadow: 0px -1px 20px rgba(0,0,0,.6);
+}
+footer#rodape p{
+    text-align: center;
+    color: grey;
+    font-family: 'Overpass', sans-serif;
+    font-size: 8pt;
+}
+/*======= Formatação Geral - FIM =======*/
+
+/*======= Formatação para Avatar - INÍCIO =======*/
+header#cabecalho img#avatar{
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    border-radius: 50%;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+figure.avatar{
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    top: 10px;
+    left: 300px;
+}
+figure.avatar img{
+    border-radius: 50%;
+    border: none;
+}
+figure.avatar figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 2s;
+    border-radius: 50%;
+}
+figure.avatar:hover figcaption{
+    opacity: 1;
+}
+figure.avatar figcaption img{
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    border-radius: 50%;
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, .6);
+}
+/*======= Formatação para Avatar - FIM =======*/
+
+/*======= Formatação para Título e Subtítulo - INÍCIO =======*/
+hgroup{
+    margin: 35px 150px 0px 350px;
+    position: absolute;
+}
+hgroup#titulo h1{
+    color: white;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+}
+hgroup#titulo h3{
+    color: white;
+    margin-top: 0px;
+    font-size: 12pt;
+    text-shadow: 2px 2px 2px black;
+}
+/*======= Formatação para Título e Subtítulo - FIM =======*/
+
+/*======= Formatação para links de Mídia Social - INÍCIO =======*/
+nav#social-media{
+    display: block;
+}
+nav#social-media h1{
+    display: none;
+}
+nav#social-media ul{
+    list-style: none;
+    position: absolute;
+    top: 465px;
+    left: 450px;
+}
+nav#social-media li{
+    display: inline-block;
+    margin: 5px;
+    transition: background-image 1s;
+}
+nav#social-media li:hover{
+    box-shadow: 15px white;
+}
+/*======= Formatação para links de Mídia Social - FIM =======*/
+
+/*======= Formatação para Tabela Contato - INÍCIO =======*/
+table#contato td{
+    padding: 1px;
+    text-align: left center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 10.5pt;
+}
+/*======= Formatação para Tabela Contato - FIM =======*/
+
+/*======= Formatação para lista Formação e Experiências - INÍCIO*/
+ul{
+    font-family: 'Overpass', sans-serif;
+    font-size: 10.5pt;
+    color: grey;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+aside#lateral ul{
+    font-family: 'Overpass', sans-serif;
+    font-size: 10.5pt;
+    color: grey;
+    text-align: justify;
+    padding-left: 15px;
+}
+/*======= Formatação para lista Formação e Experiências - FIM =======*/
