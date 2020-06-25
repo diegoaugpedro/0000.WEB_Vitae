@@ -4,9 +4,12 @@
 /*======= Formatação Geral - INÍCIO =======*/
 p{  
     text-align: justify;
-    color: grey;
+    color: black;
     font-family: 'Overpass', sans-serif;
     font-size: 10.5pt;
+}
+li{
+    color: black;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,7 +20,7 @@ h3{
 h4{
     font-family: 'Overpass', sans-serif;
     text-align: justify;
-    color: #606060;
+    color: black;
     font-weight: bold;
     font-size: 12pt;
     border-bottom: 1px dashed rgba(0, 0, 0, .6);
@@ -25,7 +28,7 @@ h4{
 h5{
     font-family: 'Overpass', sans-serif;
     text-align: left;
-    color: #606060;
+    color: black;
     font-size: 11pt;
     margin-bottom: 22.5px;
 }
@@ -71,7 +74,7 @@ footer#rodape{
 }
 footer#rodape p{
     text-align: center;
-    color: grey;
+    color: black;
     font-family: 'Overpass', sans-serif;
     font-size: 8pt;
 }
@@ -107,7 +110,7 @@ figure.avatar figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    transition: opacity 2s;
+    transition: opacity 1s;
     border-radius: 50%;
 }
 figure.avatar:hover figcaption{
@@ -174,6 +177,7 @@ table#contato td{
     text-align: left center;
     font-family: 'Overpass', sans-serif;
     font-size: 10.5pt;
+    color: black;
 }
 /*======= Formatação para Tabela Contato - FIM =======*/
 
